@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D19E8B632A34300600EE0AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B622A34300600EE0AC0 /* AppDelegate.swift */; };
+		D19E8B652A34300600EE0AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B642A34300600EE0AC0 /* SceneDelegate.swift */; };
+		D19E8B672A34300600EE0AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B662A34300600EE0AC0 /* ViewController.swift */; };
+		D19E8B6A2A34300600EE0AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19E8B682A34300600EE0AC0 /* Main.storyboard */; };
+		D19E8B6D2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B6B2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld */; };
+		D19E8B6F2A34300900EE0AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19E8B6E2A34300900EE0AC0 /* Assets.xcassets */; };
+		D19E8B722A34300900EE0AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19E8B702A34300900EE0AC0 /* LaunchScreen.storyboard */; };
+		D19E8B7D2A34300900EE0AC0 /* movilesMiriamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B7C2A34300900EE0AC0 /* movilesMiriamTests.swift */; };
+		D19E8B882A34300900EE0AC0 /* movilesMiriamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B872A34300900EE0AC0 /* movilesMiriamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D19E8B792A34300900EE0AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19E8B572A34300600EE0AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19E8B5E2A34300600EE0AC0;
+			remoteInfo = movilesMiriam;
+		};
+		D19E8B842A34300900EE0AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19E8B572A34300600EE0AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19E8B5E2A34300600EE0AC0;
+			remoteInfo = movilesMiriam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D19E8B5F2A34300600EE0AC0 /* movilesMiriam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movilesMiriam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19E8B622A34300600EE0AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D19E8B642A34300600EE0AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D19E8B662A34300600EE0AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D19E8B692A34300600EE0AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D19E8B6C2A34300600EE0AC0 /* movilesMiriam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = movilesMiriam.xcdatamodel; sourceTree = "<group>"; };
+		D19E8B6E2A34300900EE0AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19E8B712A34300900EE0AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D19E8B732A34300900EE0AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19E8B782A34300900EE0AC0 /* movilesMiriamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movilesMiriamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19E8B7C2A34300900EE0AC0 /* movilesMiriamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movilesMiriamTests.swift; sourceTree = "<group>"; };
+		D19E8B7E2A34300900EE0AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19E8B832A34300900EE0AC0 /* movilesMiriamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movilesMiriamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19E8B872A34300900EE0AC0 /* movilesMiriamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movilesMiriamUITests.swift; sourceTree = "<group>"; };
+		D19E8B892A34300900EE0AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19E8B5C2A34300600EE0AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E8B752A34300900EE0AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E8B802A34300900EE0AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D19E8B562A34300600EE0AC0 = {
+			isa = PBXGroup;
+			children = (
+				D19E8B612A34300600EE0AC0 /* movilesMiriam */,
+				D19E8B7B2A34300900EE0AC0 /* movilesMiriamTests */,
+				D19E8B862A34300900EE0AC0 /* movilesMiriamUITests */,
+				D19E8B602A34300600EE0AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D19E8B602A34300600EE0AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19E8B5F2A34300600EE0AC0 /* movilesMiriam.app */,
+				D19E8B782A34300900EE0AC0 /* movilesMiriamTests.xctest */,
+				D19E8B832A34300900EE0AC0 /* movilesMiriamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19E8B612A34300600EE0AC0 /* movilesMiriam */ = {
+			isa = PBXGroup;
+			children = (
+				D19E8B622A34300600EE0AC0 /* AppDelegate.swift */,
+				D19E8B642A34300600EE0AC0 /* SceneDelegate.swift */,
+				D19E8B662A34300600EE0AC0 /* ViewController.swift */,
+				D19E8B682A34300600EE0AC0 /* Main.storyboard */,
+				D19E8B6E2A34300900EE0AC0 /* Assets.xcassets */,
+				D19E8B702A34300900EE0AC0 /* LaunchScreen.storyboard */,
+				D19E8B732A34300900EE0AC0 /* Info.plist */,
+				D19E8B6B2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld */,
+			);
+			path = movilesMiriam;
+			sourceTree = "<group>";
+		};
+		D19E8B7B2A34300900EE0AC0 /* movilesMiriamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D19E8B7C2A34300900EE0AC0 /* movilesMiriamTests.swift */,
+				D19E8B7E2A34300900EE0AC0 /* Info.plist */,
+			);
+			path = movilesMiriamTests;
+			sourceTree = "<group>";
+		};
+		D19E8B862A34300900EE0AC0 /* movilesMiriamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D19E8B872A34300900EE0AC0 /* movilesMiriamUITests.swift */,
+				D19E8B892A34300900EE0AC0 /* Info.plist */,
+			);
+			path = movilesMiriamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19E8B5E2A34300600EE0AC0 /* movilesMiriam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19E8B8C2A34300900EE0AC0 /* Build configuration list for PBXNativeTarget "movilesMiriam" */;
+			buildPhases = (
+				D19E8B5B2A34300600EE0AC0 /* Sources */,
+				D19E8B5C2A34300600EE0AC0 /* Frameworks */,
+				D19E8B5D2A34300600EE0AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = movilesMiriam;
+			productName = movilesMiriam;
+			productReference = D19E8B5F2A34300600EE0AC0 /* movilesMiriam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D19E8B772A34300900EE0AC0 /* movilesMiriamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19E8B8F2A34300900EE0AC0 /* Build configuration list for PBXNativeTarget "movilesMiriamTests" */;
+			buildPhases = (
+				D19E8B742A34300900EE0AC0 /* Sources */,
+				D19E8B752A34300900EE0AC0 /* Frameworks */,
+				D19E8B762A34300900EE0AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D19E8B7A2A34300900EE0AC0 /* PBXTargetDependency */,
+			);
+			name = movilesMiriamTests;
+			productName = movilesMiriamTests;
+			productReference = D19E8B782A34300900EE0AC0 /* movilesMiriamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D19E8B822A34300900EE0AC0 /* movilesMiriamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19E8B922A34300900EE0AC0 /* Build configuration list for PBXNativeTarget "movilesMiriamUITests" */;
+			buildPhases = (
+				D19E8B7F2A34300900EE0AC0 /* Sources */,
+				D19E8B802A34300900EE0AC0 /* Frameworks */,
+				D19E8B812A34300900EE0AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D19E8B852A34300900EE0AC0 /* PBXTargetDependency */,
+			);
+			name = movilesMiriamUITests;
+			productName = movilesMiriamUITests;
+			productReference = D19E8B832A34300900EE0AC0 /* movilesMiriamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19E8B572A34300600EE0AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D19E8B5E2A34300600EE0AC0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D19E8B772A34300900EE0AC0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D19E8B5E2A34300600EE0AC0;
+					};
+					D19E8B822A34300900EE0AC0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D19E8B5E2A34300600EE0AC0;
+					};
+				};
+			};
+			buildConfigurationList = D19E8B5A2A34300600EE0AC0 /* Build configuration list for PBXProject "movilesMiriam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19E8B562A34300600EE0AC0;
+			productRefGroup = D19E8B602A34300600EE0AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19E8B5E2A34300600EE0AC0 /* movilesMiriam */,
+				D19E8B772A34300900EE0AC0 /* movilesMiriamTests */,
+				D19E8B822A34300900EE0AC0 /* movilesMiriamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19E8B5D2A34300600EE0AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19E8B722A34300900EE0AC0 /* LaunchScreen.storyboard in Resources */,
+				D19E8B6F2A34300900EE0AC0 /* Assets.xcassets in Resources */,
+				D19E8B6A2A34300600EE0AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E8B762A34300900EE0AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E8B812A34300900EE0AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19E8B5B2A34300600EE0AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19E8B6D2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld in Sources */,
+				D19E8B672A34300600EE0AC0 /* ViewController.swift in Sources */,
+				D19E8B632A34300600EE0AC0 /* AppDelegate.swift in Sources */,
+				D19E8B652A34300600EE0AC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E8B742A34300900EE0AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19E8B7D2A34300900EE0AC0 /* movilesMiriamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E8B7F2A34300900EE0AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19E8B882A34300900EE0AC0 /* movilesMiriamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D19E8B7A2A34300900EE0AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19E8B5E2A34300600EE0AC0 /* movilesMiriam */;
+			targetProxy = D19E8B792A34300900EE0AC0 /* PBXContainerItemProxy */;
+		};
+		D19E8B852A34300900EE0AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19E8B5E2A34300600EE0AC0 /* movilesMiriam */;
+			targetProxy = D19E8B842A34300900EE0AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D19E8B682A34300600EE0AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19E8B692A34300600EE0AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D19E8B702A34300900EE0AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19E8B712A34300900EE0AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D19E8B8A2A34300900EE0AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D19E8B8B2A34300900EE0AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19E8B8D2A34300900EE0AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = movilesMiriam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miriamclemente.movilesMiriam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19E8B8E2A34300900EE0AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = movilesMiriam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miriamclemente.movilesMiriam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D19E8B902A34300900EE0AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = movilesMiriamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miriamclemente.movilesMiriamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movilesMiriam.app/movilesMiriam";
+			};
+			name = Debug;
+		};
+		D19E8B912A34300900EE0AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = movilesMiriamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miriamclemente.movilesMiriamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movilesMiriam.app/movilesMiriam";
+			};
+			name = Release;
+		};
+		D19E8B932A34300900EE0AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = movilesMiriamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miriamclemente.movilesMiriamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = movilesMiriam;
+			};
+			name = Debug;
+		};
+		D19E8B942A34300900EE0AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = movilesMiriamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miriamclemente.movilesMiriamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = movilesMiriam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19E8B5A2A34300600EE0AC0 /* Build configuration list for PBXProject "movilesMiriam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19E8B8A2A34300900EE0AC0 /* Debug */,
+				D19E8B8B2A34300900EE0AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19E8B8C2A34300900EE0AC0 /* Build configuration list for PBXNativeTarget "movilesMiriam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19E8B8D2A34300900EE0AC0 /* Debug */,
+				D19E8B8E2A34300900EE0AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19E8B8F2A34300900EE0AC0 /* Build configuration list for PBXNativeTarget "movilesMiriamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19E8B902A34300900EE0AC0 /* Debug */,
+				D19E8B912A34300900EE0AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19E8B922A34300900EE0AC0 /* Build configuration list for PBXNativeTarget "movilesMiriamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19E8B932A34300900EE0AC0 /* Debug */,
+				D19E8B942A34300900EE0AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D19E8B6B2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D19E8B6C2A34300600EE0AC0 /* movilesMiriam.xcdatamodel */,
+			);
+			currentVersion = D19E8B6C2A34300600EE0AC0 /* movilesMiriam.xcdatamodel */;
+			path = movilesMiriam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D19E8B572A34300600EE0AC0 /* Project object */;
+}
