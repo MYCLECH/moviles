@@ -16,6 +16,8 @@
 		D19E8B722A34300900EE0AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19E8B702A34300900EE0AC0 /* LaunchScreen.storyboard */; };
 		D19E8B7D2A34300900EE0AC0 /* movilesMiriamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B7C2A34300900EE0AC0 /* movilesMiriamTests.swift */; };
 		D19E8B882A34300900EE0AC0 /* movilesMiriamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B872A34300900EE0AC0 /* movilesMiriamUITests.swift */; };
+		D19E8B992A3443B300EE0AC0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B982A3443B300EE0AC0 /* Book.swift */; };
+		D19E8B9E2A34454500EE0AC0 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E8B9D2A34454500EE0AC0 /* BookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D19E8B832A34300900EE0AC0 /* movilesMiriamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movilesMiriamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19E8B872A34300900EE0AC0 /* movilesMiriamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movilesMiriamUITests.swift; sourceTree = "<group>"; };
 		D19E8B892A34300900EE0AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19E8B982A3443B300EE0AC0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D19E8B9D2A34454500EE0AC0 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				D19E8B702A34300900EE0AC0 /* LaunchScreen.storyboard */,
 				D19E8B732A34300900EE0AC0 /* Info.plist */,
 				D19E8B6B2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld */,
+				D19E8B982A3443B300EE0AC0 /* Book.swift */,
+				D19E8B9D2A34454500EE0AC0 /* BookTableViewCell.swift */,
 			);
 			path = movilesMiriam;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				D19E8B6D2A34300600EE0AC0 /* movilesMiriam.xcdatamodeld in Sources */,
 				D19E8B672A34300600EE0AC0 /* ViewController.swift in Sources */,
 				D19E8B632A34300600EE0AC0 /* AppDelegate.swift in Sources */,
+				D19E8B992A3443B300EE0AC0 /* Book.swift in Sources */,
+				D19E8B9E2A34454500EE0AC0 /* BookTableViewCell.swift in Sources */,
 				D19E8B652A34300600EE0AC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
